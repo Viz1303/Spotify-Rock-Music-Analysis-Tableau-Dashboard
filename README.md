@@ -12,9 +12,6 @@ The dataset was obtained from **Spotify’s API**, cleaned using **Python (Panda
 - Conduct a **cohort analysis** to study track longevity.
 - Visualize **track release trends by month and day of the week**.
 
-## 📊 Final Dashboard Preview
-![Spotify Rock Music Trends Dashboard](./final_dashboard .png)
-
 
 ## 📈 Key Insights
 ### 🎶 **Popularity Trends Over Time**
