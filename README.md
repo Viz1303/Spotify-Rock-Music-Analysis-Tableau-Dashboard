@@ -44,5 +44,7 @@ The dataset was obtained from **Spotify’s API**, cleaned using **Python (Panda
 - **Tableau** – Data visualization & dashboard creation.
 - **Spotify API** – Data collection.
 
+## link to view it 
+- https://public.tableau.com/views/SpotifyDashboard_17401011106030/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
