@@ -1,6 +1,6 @@
-# 🎸 Spotify Rock Music Analysis Dashboard
+# The Decline of Rock: A Spotify Data-Driven Analysis
 
-## 📌 Problem Statement  
+## Problem Statement  
 Rock music once dominated global charts and shaped cultural identity, but in recent years its mainstream visibility has declined. With the rise of streaming platforms, hip-hop, pop, and EDM have taken over the spotlight.  
 
 This project explores:  
@@ -10,7 +10,7 @@ This project explores:
 
 ---
 
-## ⚙️ Methodology & Rationale  
+## Methodology & Rationale  
 - **Data Source**: Spotify API (track-level features including popularity, release year, tempo, duration, energy).  
 - **Tool**: Tableau for visualization and interactive dashboards.  
 - **Approach**:  
@@ -23,7 +23,7 @@ This project explores:
 
 ---
 
-## 📊 Visual Insights  
+## Visual Insights  
 
 ### 1. Duration vs Popularity  
 <p align="center">
@@ -61,7 +61,7 @@ This project explores:
 
 ---
 
-## 📈 Key Insights & Narrative  
+## Key Insights & Narrative  
 
 1. **Rock’s Peak and Decline**  
    - Mainstream peak: **2013–2016**.  
@@ -79,7 +79,7 @@ This project explores:
 
 ---
 
-## 📝 Lessons Learned & Real-World Meaning  
+## Lessons Learned & Real-World Meaning  
 
 1. **Technology Shapes Genres**  
    - MTV once fueled rock → now Spotify algorithms fuel hip-hop & pop.  
@@ -96,7 +96,7 @@ This project explores:
 
 ---
 
-## 🚀 Tech Stack  
+## Tech Stack  
 - **Language**: Python (data prep)  
 - **Visualization**: Tableau  
 - **Data Source**: Spotify API  
@@ -104,4 +104,4 @@ This project explores:
 
 ---
 
-✨ **In essence**: This dashboard tells the story of how rock shifted from **mainstream dominance to cultural niche**, highlighting how technology, culture, and business models together shape the fate of entire genres.  
+**In essence**: This dashboard tells the story of how rock shifted from **mainstream dominance to cultural niche**, highlighting how technology, culture, and business models together shape the fate of entire genres.  
