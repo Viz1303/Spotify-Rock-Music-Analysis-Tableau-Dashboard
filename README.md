@@ -36,7 +36,7 @@ This project explores:
 
 ### 2. Popularity Trends Over Time  
 <p align="center">
-  <img src="Images/popularity_trends.png" alt="Popularity Trends" width="600"/>
+  <img src="https://github.com/Viz1303/Spotify-Rock-Music-Analysis-Tableau-Dashboard/blob/main/Popularity_trends.png?raw=true" width="600"/>
 </p>  
 
 *Insight*: Popularity peaked between **2013–2016**, followed by a steady decline. Genres like hip-hop and EDM have since dominated Spotify charts.  
@@ -45,7 +45,7 @@ This project explores:
 
 ### 3. Cohort Analysis (Older vs Newer Tracks)  
 <p align="center">
-  <img src="Images/cohort_analysis.png" alt="Cohort Analysis" width="600"/>
+  <img src="https://github.com/Viz1303/Spotify-Rock-Music-Analysis-Tableau-Dashboard/blob/main/Cohort_analysis.png?raw=true" width="600"/>
 </p>  
 
 *Insight*: Older tracks (classics) maintain strong popularity → rock’s cultural pull is **heritage-driven**, not powered by new releases.  
@@ -54,7 +54,7 @@ This project explores:
 
 ### 4. Heatmap of Release Timing  
 <p align="center">
-  <img src="Images/heatmap_release.png" alt="Release Timing Heatmap" width="600"/>
+  <img src="https://github.com/Viz1303/Spotify-Rock-Music-Analysis-Tableau-Dashboard/blob/main/Heatmap.png?raw=true" width="600"/>
 </p>  
 
 *Insight*: Popularity spikes align with **festival seasons and album drops**, suggesting rock thrives more in **live performance spaces** than in streaming algorithms.  
