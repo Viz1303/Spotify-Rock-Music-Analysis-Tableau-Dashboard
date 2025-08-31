@@ -27,7 +27,7 @@ This project explores:
 
 ### 1. Duration vs Popularity  
 <p align="center">
-  <img src="[Images/duration_vs_popularity.png" alt="Duration vs Popularity](https://github.com/Viz1303/Spotify-Rock-Music-Analysis-Tableau-Dashboard/blob/main/Duration_vs_popularity.png)?raw=true" width="600"/>
+  <img src="https://github.com/Viz1303/Spotify-Rock-Music-Analysis-Tableau-Dashboard/blob/main/Duration_vs_popularity.png?raw=true" width="600"/>
 </p>  
 
 *Insight*: Rock songs average 3–4 minutes like other genres, but lack the hook-heavy structure that fuels algorithmic virality.  
