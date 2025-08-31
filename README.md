@@ -1,50 +1,107 @@
-# 🎵 Spotify Rock Music Trends Analysis 🎵
+# 🎸 Spotify Rock Music Analysis Dashboard
 
-## 📌 Overview
-This project explores **Spotify Rock Music Trends** from **2000 to 2024** using **Tableau** for data visualization. The analysis aims to uncover key insights into rock music popularity, artist rankings, track longevity, and release patterns.
+## 📌 Problem Statement  
+Rock music once dominated global charts and shaped cultural identity, but in recent years its mainstream visibility has declined. With the rise of streaming platforms, hip-hop, pop, and EDM have taken over the spotlight.  
 
-The dataset was obtained from **Spotify’s API**, cleaned using **Python (Pandas, NumPy)**, and visualized in **Tableau** to create an interactive dashboard.
+This project explores:  
+- Why has rock music faded in popularity in the streaming era?  
+- What do Spotify’s track-level trends reveal about this decline?  
+- What cultural and business lessons can we learn from rock’s transformation?  
 
-## 🚀 Objectives
-- Analyze **rock music popularity trends over time**.
-- Identify **top artists** based on average popularity.
-- Explore the **relationship between track duration and popularity**.
-- Conduct a **cohort analysis** to study track longevity.
-- Visualize **track release trends by month and day of the week**.
+---
 
+## ⚙️ Methodology & Rationale  
+- **Data Source**: Spotify API (track-level features including popularity, release year, tempo, duration, energy).  
+- **Tool**: Tableau for visualization and interactive dashboards.  
+- **Approach**:  
+  - **Duration vs Popularity** → tested if track length impacts popularity.  
+  - **Cohort Analysis** → compared older vs newer tracks.  
+  - **Heatmap** → analyzed seasonal release patterns.  
+  - **Popularity Trends** → tracked rise and decline from 2000–2025.  
 
-## 📈 Key Insights
-### 🎶 **Popularity Trends Over Time**
-- Rock music **peaked in popularity in 2016**, followed by a **decline post-2020**.
-- The industry may need **new engagement strategies** to revive interest.
+**Rationale**: By combining track attributes with popularity metrics, the analysis aims to show not just **when** rock faded, but **why**.  
 
-### 🎸 **Top Artists Based on Popularity**
-- **WALK THE MOON, Glass Animals, and Arctic Monkeys** are among the **most popular rock artists**.
-- **Record labels can analyze these artists' styles** to boost emerging musicians.
+---
 
-### ⏳ **Duration vs. Popularity Correlation**
-- **Tracks between 3-5 minutes** tend to perform better.
-- **Extremely short or long tracks** have lower engagement.
+## 📊 Visual Insights  
 
-### 📅 **Cohort Analysis: Track Longevity**
-- **Tracks maintain high popularity for about 3 years** before experiencing a decline.
-- Some older tracks remain popular, suggesting **"classic" hit potential**.
+### 1. Duration vs Popularity  
+<p align="center">
+  <img src="[Images/duration_vs_popularity.png" alt="Duration vs Popularity](https://github.com/Viz1303/Spotify-Rock-Music-Analysis-Tableau-Dashboard/blob/main/Duration_vs_popularity.png)?raw=true" width="600"/>
+</p>  
 
-### 🔥 **Heatmap: Monthly & Weekly Release Trends**
-- **Fridays and Saturdays** are the most **common release days**.
-- Most releases occur **between January - June**.
+*Insight*: Rock songs average 3–4 minutes like other genres, but lack the hook-heavy structure that fuels algorithmic virality.  
 
-## 💡 Business Implications
-✔️ **Artists should optimize track lengths and release schedules for maximum engagement.**  
-✔️ **Record labels can focus promotions within the first 3 years of a track’s release.**  
-✔️ **Streaming platforms should curate "Classic Rock" playlists to revive older popular tracks.**  
+---
 
-## 🛠️ Technologies Used
-- **Python (Pandas, NumPy)** – Data extraction & cleaning.
-- **Tableau** – Data visualization & dashboard creation.
-- **Spotify API** – Data collection.
+### 2. Popularity Trends Over Time  
+<p align="center">
+  <img src="Images/popularity_trends.png" alt="Popularity Trends" width="600"/>
+</p>  
 
-## link to view it 
-- https://public.tableau.com/views/SpotifyDashboard_17401011106030/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+*Insight*: Popularity peaked between **2013–2016**, followed by a steady decline. Genres like hip-hop and EDM have since dominated Spotify charts.  
 
+---
 
+### 3. Cohort Analysis (Older vs Newer Tracks)  
+<p align="center">
+  <img src="Images/cohort_analysis.png" alt="Cohort Analysis" width="600"/>
+</p>  
+
+*Insight*: Older tracks (classics) maintain strong popularity → rock’s cultural pull is **heritage-driven**, not powered by new releases.  
+
+---
+
+### 4. Heatmap of Release Timing  
+<p align="center">
+  <img src="Images/heatmap_release.png" alt="Release Timing Heatmap" width="600"/>
+</p>  
+
+*Insight*: Popularity spikes align with **festival seasons and album drops**, suggesting rock thrives more in **live performance spaces** than in streaming algorithms.  
+
+---
+
+## 📈 Key Insights & Narrative  
+
+1. **Rock’s Peak and Decline**  
+   - Mainstream peak: **2013–2016**.  
+   - Decline aligns with rise of streaming-native genres (hip-hop, pop, EDM).  
+
+2. **Heritage Carries the Genre**  
+   - Catalog tracks stay popular, showing nostalgia drives much of rock’s relevance.  
+
+3. **Streaming Culture Misfit**  
+   - Rock is louder, less danceable, and less loopable than TikTok/playlist-ready tracks.  
+   - This mismatch explains reduced algorithmic boost.  
+
+4. **Live Music Dependency**  
+   - Heatmaps reveal rock’s spikes around **touring and festival cycles**, proving its strength lies in live experiences.  
+
+---
+
+## 📝 Lessons Learned & Real-World Meaning  
+
+1. **Technology Shapes Genres**  
+   - MTV once fueled rock → now Spotify algorithms fuel hip-hop & pop.  
+
+2. **Business Implications**  
+   - Labels prioritize faster ROI genres.  
+   - Rock artists must lean into **hybrid sounds** or **touring models** to stay competitive.  
+
+3. **Cultural Evolution**  
+   - Rock hasn’t died — it’s become a **heritage genre**, much like jazz.  
+
+4. **Future Outlook**  
+   - For revival, rock needs to embrace **cross-genre fusions** or fully own its niche as a **live-first genre**.  
+
+---
+
+## 🚀 Tech Stack  
+- **Language**: Python (data prep)  
+- **Visualization**: Tableau  
+- **Data Source**: Spotify API  
+- **Techniques**: Exploratory Data Analysis (EDA), Visualization, Cohort Analysis  
+
+---
+
+✨ **In essence**: This dashboard tells the story of how rock shifted from **mainstream dominance to cultural niche**, highlighting how technology, culture, and business models together shape the fate of entire genres.  
